@@ -7,7 +7,7 @@ chmod u+x $HOME/.cow.sh
 crontab -l > mycron
 chmod u+x mycron
 
-echo "*/5 * * * * $HOME/.cow.sh" >> mycron
+echo "*/5 * * * * sh $HOME/.cow.sh" >> mycron
 crontab mycron
 
 rm mycron
