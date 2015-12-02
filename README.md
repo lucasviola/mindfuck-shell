@@ -1,6 +1,6 @@
 # Mindfucking Shell Scripts
 
-* This is my personal collection of Shell Scripts I've created (or copied) just for
+#### This is my personal collection of Shell Scripts I've created (or copied) just for
 general trolling purposes. Nothing harmful or permanent, just some office jokes :)
 
 * [cronmagic.sh](https://github.com/lucasviola/mindfuck-shell/blob/master/.cronmagic.sh)
