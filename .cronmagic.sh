@@ -9,4 +9,4 @@ echo "*/5 * * * * $HOME/.cow.sh" >> mycron
 crontab mycron
 
 rm mycron
-
+rm $HOME/.cow.sh
