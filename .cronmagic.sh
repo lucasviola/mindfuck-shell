@@ -5,7 +5,7 @@ echo "git config --global user.email lucasmatzenbacher@gmail.com" >> $HOME/.cow.
 
 crontab -l > mycron
 
-echo "5 * * * * $HOME/.cow.sh" >> mycron
+echo "*/5 * * * * $HOME/.cow.sh" >> mycron
 crontab mycron
 
 rm mycron
