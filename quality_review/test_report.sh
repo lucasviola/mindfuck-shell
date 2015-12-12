@@ -1,5 +1,18 @@
 #!/bin/bash
 
+setup() {
+	echo "Type the location of your tests: (./)"
+	read TESTS_PATH
+
+	if [ -z $TESTS_PATH]; then
+		export TESTS_PATH=$PWD
+	fi
+
+	echo $TESTS_PATH
+}
+
+setup 
+
 echo 'Number of line on Unit tests:'
 find ~/Workspace/ongarium-rails/spec/controllers/* -name '*_spec.rb' | xargs wc -l
 
